@@ -1,0 +1,8 @@
+# Paper-Card Deck — Python dependencies for the helper library (scripts/pptx_cards.py)
+python-pptx>=0.6.21   # build / edit .pptx
+Pillow>=9.0           # image aspect-ratio sizing (place_fig / hi_row)
+
+# Optional, only for the "render & eyeball every page" QA step:
+#   LibreOffice  (soffice)  — convert .pptx -> .pdf
+#   poppler-utils (pdftoppm, pdftocairo) — rasterize pages & crop paper figures
+# Install these via your OS package manager, not pip.
